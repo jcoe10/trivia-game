@@ -7,16 +7,15 @@ body {
 button {
     width: 726px;
     height: 50px;
-    /*background-size: 100%;
-    /*background-repeat: no-repeat;*/
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-color: black;
-    border: 1px solid #C20202 ;   
+    border: 3px solid #C20202 ;   
     outline: none;
     color: #C20202;
-    margin: 0 auto;
-    
-    
+    margin: 0 auto;  
 }
+
 .title {
     text-align: center;
     width: 726px;
@@ -32,4 +31,9 @@ button {
     background-color: black;
     color: #C20202;
     margin: 0 auto;
+}
+.start {
+    width: 200px;
+    height: 100px;
+    z-index: 0;
 }
