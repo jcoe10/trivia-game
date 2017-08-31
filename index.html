@@ -17,41 +17,19 @@
 </head>
 
 <body>
-    <center>
-       <input class="start" type="button" value="Start"></input>
-        <div class="title text-center">
-        <h2>Name the Artist: Rock N' Roll</h2>
-        <img src="assets/images/rock-trivia-open-picture.png">
-        <div class="timer"></div>
-        <div class="question text-center">
-        <h2>Who sings this song?</h2>
-            </div>
-            <div class="questions">
-                <div>
-                    <div class="row">
-                        <div class="col-4">
-                            <button class="answer-choice" id="button-a"><h3>A.) Aerosmith</h3></button>
-                        </div>
-                    </div>
-                    <div class="row">
-                            <div class="col-4">
-                                <button class="answer-choice" id="button-b"><h3>B.) AC/DC</h3></button>
-                            </div>
-                        </div>
-                    <div class="row">
-                            <div class="col-4">
-                                <button class="answer-choice" id="button-c"><h3>C.) Guns N' Roses</h3></button>
-                            </div>
-                        </div>
-                    <div class="row">
-                            <div class="col-4">
-                                <button class="answer-choice" id="button-d"><h3>D.) Poison</h3></button>
-                            </div>
-                        </div>
-                </div>
-            </div>
-            </center>
-    
+    <div id="start"></div>
+    <h1>Quiz on Classic Rock</h1>
+    <div class="quiz-container">
+        <div id="quiz"></div>
+    </div>
+    <div id="questions"></div>
+    <button id="previous">Previous Question</button>
+    <button id="next">Next Question</button>
+    <button id="submit">Submit Quiz</button>
+    <div id="results"></div>
+
+
 </body>
 <script src="assets/javascript/app.js"></script>
+
 </html>
